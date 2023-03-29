@@ -34,12 +34,36 @@ p {
   word-wrap: break-word;
 }
 
+.octocat-img{
+  display: flex;
+
+}
+.octocat-img img{
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+.octocat-img span{
+  border: 1px #30363d  solid;
+  padding: 30px;
+  height: min-content;
+  line-height: 1.4;
+  background-color: #28303a;
+  color: white;
+  font-weight: bold;
+}
 .description {
   display: flex;
   gap: 4px;
 }
 
 .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.git-stats {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
